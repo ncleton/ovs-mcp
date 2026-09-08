@@ -18,7 +18,7 @@ export function createServer(options) {
     const server = new McpServer({
         name: "ovs-mcp",
         version: "1.2.0",
-        websiteUrl: "https://github.com/ncleton-petitmaker/ovs-mcp",
+        websiteUrl: "https://github.com/ncleton/ovs-mcp",
     }, {
         capabilities: { logging: {} },
         instructions: "Call connect_ovs before the first OVS operation. If connection is required, present its secure login URL to the user. Never ask for OVS credentials in chat or in an MCP form. After connection, search_products returns exact product, attribute, and customization IDs. Cart mutations require those exact IDs and a preview call followed by the same tool with its confirmation token.",

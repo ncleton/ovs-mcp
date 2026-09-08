@@ -17,7 +17,7 @@ Utilisez directement le dépôt GitHub, sans clone local :
       "command": "npx",
       "args": [
         "-y",
-        "--package=github:ncleton-petitmaker/ovs-mcp",
+        "--package=github:ncleton/ovs-mcp",
         "ovs-mcp"
       ]
     }
@@ -69,10 +69,10 @@ personnalisation au lieu de supposer silencieusement la valeur `0`.
 ## CLI
 
 ```bash
-npx -y --package=github:ncleton-petitmaker/ovs-mcp ovs connect
-npx -y --package=github:ncleton-petitmaker/ovs-mcp ovs search "seitan"
-npx -y --package=github:ncleton-petitmaker/ovs-mcp ovs cart
-npx -y --package=github:ncleton-petitmaker/ovs-mcp ovs add 17170 --attribute 0 --customization 0
+npx -y --package=github:ncleton/ovs-mcp ovs connect
+npx -y --package=github:ncleton/ovs-mcp ovs search "seitan"
+npx -y --package=github:ncleton/ovs-mcp ovs cart
+npx -y --package=github:ncleton/ovs-mcp ovs add 17170 --attribute 0 --customization 0
 ```
 
 La commande `add` ou `remove` sans `--confirm` ne modifie rien : elle retourne

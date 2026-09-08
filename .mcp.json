@@ -2,7 +2,7 @@
   "mcpServers": {
     "ovs": {
       "command": "npx",
-      "args": ["-y", "--package=github:ncleton-petitmaker/ovs-mcp", "ovs-mcp"]
+      "args": ["-y", "--package=github:ncleton/ovs-mcp", "ovs-mcp"]
     }
   }
 }

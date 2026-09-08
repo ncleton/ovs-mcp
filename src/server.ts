@@ -27,7 +27,7 @@ export function createServer(options: CreateServerOptions): McpServer {
     {
       name: "ovs-mcp",
       version: "1.2.0",
-      websiteUrl: "https://github.com/ncleton-petitmaker/ovs-mcp",
+      websiteUrl: "https://github.com/ncleton/ovs-mcp",
     },
     {
       capabilities: { logging: {} },

@@ -99,7 +99,7 @@ export class OvsClient {
         const headers = new Headers(init.headers);
         headers.set("accept", headers.get("accept") ?? "text/html,application/json;q=0.9,*/*;q=0.8");
         headers.set("accept-language", "fr-FR,fr;q=0.9");
-        headers.set("user-agent", "ovs-mcp/1.0 (+https://github.com/ncleton-petitmaker/ovs-mcp)");
+        headers.set("user-agent", "ovs-mcp/1.0 (+https://github.com/ncleton/ovs-mcp)");
         if (this.#cookies.size > 0)
             headers.set("cookie", [...this.#cookies].map(([key, value]) => `${key}=${value}`).join("; "));
         let response;

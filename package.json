@@ -51,7 +51,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ncleton-petitmaker/ovs-mcp.git"
+    "url": "https://github.com/ncleton/ovs-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

@@ -155,7 +155,7 @@ export class OvsClient {
     headers.set("accept-language", "fr-FR,fr;q=0.9");
     headers.set(
       "user-agent",
-      "ovs-mcp/1.0 (+https://github.com/ncleton-petitmaker/ovs-mcp)",
+      "ovs-mcp/1.0 (+https://github.com/ncleton/ovs-mcp)",
     );
     if (this.#cookies.size > 0)
       headers.set(
